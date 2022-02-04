@@ -1,0 +1,206 @@
+@media screen and (max-width:1599px) {
+    .width-parent .positoin-absolute .border{
+        border-left: 580px solid transparent;
+        border-right: 580px solid transparent;
+    }
+}
+@media screen and (max-width:1140px) {
+    header .width-parent-chiled-100 .contaner-nav .icon-link ul li #margin-right,
+    header .width-parent-chiled-100 .contaner-nav .icon-link ul li a
+    {
+        margin:0 20px 0 0 !important;
+    }
+    header .width-parent-chiled-100 .contaner-nav .icon-link ul{
+      align-items: center;
+    }
+    .width-parent .positoin-absolute .border-1 {
+        border-right: 600px solid #161e39;
+    }
+    .width-fak-fak .width-parent-chiled .box-one .titel,
+    .width-parent-1 .width-parent-chiled .box-one .titel
+     {
+        padding: 140px 0 0 0 !important;
+    } 
+}
+@media screen and (max-width:1023px) {
+    header{
+    position: relative;
+    }
+    header .width-parent-chiled-100 .contaner-nav nav ul .maring{
+        margin-right: 25px !important;
+    }
+    header .width-parent-chiled-100{
+    flex-direction: column;
+    }
+    header .width-parent-chiled-100 .contaner-nav .icon-link ul li #trynow{
+        border-color: #000000;
+        color: #000;
+    }
+    header .width-parent-chiled-100 .contaner-nav nav ul .maring a
+    {
+    color: #000;
+    }
+    header  .width-parent-chiled-100 .contaner-nav .icon-link ul li a #fill-1{
+    fill: #000;
+    }
+    header .width-parent-chiled-100 .contaner-nav{
+    justify-content: space-between;
+    width: 100%;
+    }
+    .width-parent .width-parent-chiled .box-one .text h1{
+    font-size: 50px;
+    }
+    .width-fak-fak .width-parent-chiled .box-one .box-two {
+    left: 0;
+    }
+    .width-parent .width-parent-chiled .box-one .text a,
+    .width-parent-1 .width-parent-chiled .box-one .titel a, 
+    .width-fak-fak .width-parent-chiled .box-one .titel .link a {
+    padding: 19px 42px 19px;
+    }
+    #two .border-3{
+        display: none !important;
+    }
+
+}
+@media screen and (max-width:991px) {
+    header .width-parent-chiled-100,
+    .width-parent .width-parent-chiled,
+    .width-parent-1 .width-parent-chiled,
+    .width-fak-fak .width-parent-chiled, 
+    .width-parent-5 .width-parent-chiled,
+    .testimonial-section .width-parent-chiled, 
+    footer .width-parent-chiled,
+    #two .width-parent-chiled .contenr,
+    footer .width-parent-chiled .widgets-section
+     {
+     flex-wrap: wrap;
+    }
+    header .width-parent-chiled-100{
+        flex-direction: row;
+        align-items: center;
+    }
+    .width-parent .width-parent-chiled .box-one,
+    .width-parent-1 .width-parent-chiled .box-one,
+    .width-fak-fak .width-parent-chiled .box-one,
+    footer .width-parent-chiled .widgets-section .one
+    {
+    width: 100%;
+    }
+    .width-parent .width-parent-chiled .box-one .text h1,
+    .width-parent .width-parent-chiled .box-one .text p
+    {
+    color: white;
+    }
+    .width-parent .width-parent-chiled .box-one .text{
+    padding: 0 0 60px 0;
+    }
+    .width-parent .width-parent-chiled .box-one .img-mobile {
+    text-align: center;
+    }
+    .width-parent-1 .width-parent-chiled .box-one .box-two{
+        right: 0;
+        width: 69%;
+    }
+    .width-parent-1 .width-parent-chiled .box-one .box{
+        margin: 0 auto;
+    }
+    #two .width-parent-chiled .contenr .box-box{
+        width: 48.7%;
+    }
+    .width-fak-fak .pattern-3{
+        left: 5%;
+        right: auto;
+    }
+    .width-fak-fak{
+        padding: 0;
+    }
+    .width-fak-fak .width-parent-chiled .box-one .titel{
+        padding: 0;
+        margin-bottom: 140px;
+    }
+    footer .width-parent-chiled .widgets-section .one .loge{
+        max-width: 49%;
+        margin-bottom: 30px;
+    }
+    footer .width-parent-chiled .widgets-section .one .ul-text{
+        width: 49%;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:767px){
+    header .width-parent-chiled-100 .contaner-nav
+    {
+        display: none;
+    }
+    header .width-parent-chiled-100 #bars
+    {
+        display: block;
+        color: black;
+        font-size: 30px;
+    }
+    .width-parent .width-parent-chiled .box-one .text h1{
+        font-size: 40px;
+    }
+    #two .width-parent-chiled .contenr .box-box,
+    .testimonial-section .width-parent-chiled .owl-stage-outer .img-text,
+    footer .width-parent-chiled .widgets-section
+    {
+        width: 100% !important;
+    }
+    .width-parent-5 .carousel-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .width-parent-5 .carousel-container img {
+        width: 44%;
+    }
+    footer .width-parent-chiled .widgets-section .one{
+        flex-wrap: wrap;
+    }
+    footer .width-parent-chiled .widgets-section .one .loge
+    {
+        max-width: 100%;
+        
+    }
+    footer .width-parent-chiled .widgets-section .one .ul-text{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:599px){
+    .width-parent-1 .width-parent-chiled .box-one .box-two,
+    .width-parent-1 .pattern-4,
+    .width-fak-fak .width-parent-chiled .box-one .box-two
+    {
+        display: none;
+    }
+    .testimonial-section .section-layer-one {
+        z-index: -1;
+    }
+    .width-parent-1 .width-parent-chiled .box-one .box .title .diamond{
+        margin-left: 0px !important;
+    }
+    .width-parent-5 .carousel-container .carousel-outer{
+        padding: 0 !important;
+        height: unset !important;
+        width: 100% !important;
+    }
+    .width-parent-5 .carousel-container img{
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+    footer .width-parent-chiled .widgets-section{
+        padding: 80px 0px 110px !important;
+    }
+}
+@media screen and (max-width:488px){
+    .width-fak-fak .width-parent-chiled .box-one .titel .link{
+        flex-direction: column;
+    }
+    .width-fak-fak .width-parent-chiled .box-one .titel .link a{
+        display: inline-block !important;
+        width: 50%;
+        margin-bottom: 15px;
+    }
+}
